@@ -2,6 +2,19 @@
 
 :warning: For fork developers: Please don't build using GitHub Actions, as GitHub will count your forked GitHub Actions usage against this upstream repository, which may cause this upstream repository gets disabled by GitHub staff like [MagiskOnWSA](https://github.com/LSPosed/MagiskOnWSA) because of numerous forks building GitHub Actions, and counting the forks' Action usage against this upstream repository.
 
+## Download Windows Subsystem for Android™️ Installation Package
+
+### Download
+As we need to modify installation files,  we cannot download WSA from the Microsoft Store. To download it directly we will use this [service](https://store.rg-adguard.net/)
+
+Use settings:
+- ProductID: 9P3395VX91NR
+- Ring: SLOW
+
+Click the checkmark, and locate file which has size of approx. ~1.2GB (usually at the bottom of the page) and has `.msixbundle` extension.
+
+Click the filename to begin downloading. You may be warned by your web-browser that "The file cannot be downloaded securely". Disregard the warning and force the download (use buttons like "Keep anyway" or similar, depending on your web-browser)
+
 ## Support for generating from these systems
 
 - Linux (x86_64 or arm64)
